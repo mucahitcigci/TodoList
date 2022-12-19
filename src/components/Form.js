@@ -40,7 +40,7 @@ const Form = ({ input, setInput, todos, setTodos, editTodo, setEditTodo }) => {
         onChange={onInputChange}
       />
       <button className="button-add" type="submit">
-        Add
+        {editTodo ? "Save" : "Add"}
       </button>
     </form>
   );

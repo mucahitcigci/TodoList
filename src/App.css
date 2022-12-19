@@ -4,7 +4,7 @@
 }
 
 .container {
-  background: linear-gradient(to right bottom, #e1b382, #c89666);
+  background: linear-gradient(to right bottom, #ffe3e3, #f3998b);
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -12,7 +12,7 @@
   align-items: center;
 }
 .app-wrapper {
-  background-color: #12343b;
+  background-color: #2b3a55;
   min-width: 450px;
   min-height: 650px;
   padding: 30px;
@@ -34,7 +34,7 @@
   font-size: 20px;
   color: #ccc;
   background-color: #00000000;
-  border: 1px solid#c89666;
+  border: 1px solid#f3998b;
   border-radius: 10px;
 }
 .button-add {
@@ -43,13 +43,13 @@
   font-size: 20px;
   border-radius: 10px;
   border: 0;
-  background-color: #f1af71;
+  background-color: #f3998b;
   cursor: pointer;
 }
 .list-item {
   display: flex;
   margin: 20px 0;
-  border: 1px solid #ccc;
+  border: 1px solid #f3998b6e;
   border-radius: 10px;
   padding: 10px;
   max-height: 30px;
@@ -65,15 +65,15 @@
   border-radius: 50%;
 }
 .button-complete {
-  color: #ff6c6c;
+  color: #e97777;
   margin-right: 10px;
 }
 .button-edit {
-  color: #e2d029;
+  color: #fcddb0;
   margin-right: 10px;
 }
 .button-delete {
-  color: lightseagreen;
+  color: #bce29e;
 }
 .complete {
   text-decoration: solid;
@@ -83,7 +83,7 @@
 }
 .list {
   width: 220px;
-  background-color: #12343b;
+  background-color: #2b3a55;
   border: none;
   color: #ccc;
   font-size: 20px;
